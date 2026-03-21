@@ -26,6 +26,11 @@ OpeN64 is an open-source recreation of the N64 motherboard made in KiCAD.  This 
 ![Front 2](images/Front2.png)
 ![Back 2](images/Back2.png)
 
+## Video
+Here you can find covering the details regarding OpeN64
+[![Watch the video](https://img.youtube.com/vi/IcmBMs6tqM0/maxresdefault.jpg)](https://youtu.be/IcmBMs6tqM0)
+
+
 ## Assembly
 
 Since OpeN64 uses original N64 hardware, the only items needed for assembly are an unpopulated OpeN64 board, and an 03 revision of the Nintendo 64 motherboard.  Other motherboard revisions may work, but none other than rev 03 have been tested, so use as your own risk!
@@ -39,16 +44,25 @@ Part of the OpeN64 project is a compendium - that is: a clear visual documentati
 ## Credits
 Contributors:
 CrazyGadget - Provided the primary board scans used for the compendium
+
 Xenii - Made adjustments to footprints
+
 Bryce - Provided additional board scans for reference
 
 Special Thanks:
+
 Bubberiffic
+
 Cheese
+
 CrashBash
+
 TheDrew
+
 Redherring
+
 YveltalGriffin
+
 Y2K
 
 ## License
