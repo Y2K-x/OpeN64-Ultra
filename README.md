@@ -61,6 +61,10 @@ TheDrew
 
 Redherring
 
+ShockSlayer
+
+Shank
+
 YveltalGriffin
 
 Y2K
