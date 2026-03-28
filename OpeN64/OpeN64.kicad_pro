@@ -58,7 +58,32 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "solder_mask_bridge|184880000|46030000|2915c7bb-2478-4da0-9735-3ce3a126054e|1ffc6c93-1b04-48e9-82b4-615f851916cf",
+          "Done to match original motherboard"
+        ],
+        [
+          "solder_mask_bridge|90820000|46100000|fc2f7cdd-88fe-4928-b8a0-a64c7f81cb76|0de67bf2-7df4-406c-be51-1f518dc0b393",
+          "Done to match original motherboard"
+        ],
+        [
+          "text_height|102070000|106140000|b2c89a31-9c5e-4d22-a055-62291771e7b3|00000000-0000-0000-0000-000000000000",
+          "This technically violates JLC's specs but it remains legible in practice."
+        ],
+        [
+          "text_height|102590000|106910000|9b99bdc8-1e3f-4e9f-911a-7c8538d6b0ca|00000000-0000-0000-0000-000000000000",
+          "This technically violates JLC's specs but it remains legible in practice."
+        ],
+        [
+          "text_height|104290000|106150000|8e272e86-48f8-41ab-94fd-701cc19b4444|00000000-0000-0000-0000-000000000000",
+          "This technically violates JLC's specs but it remains legible in practice."
+        ],
+        [
+          "unconnected_items|203910000|134160000|F.Cu|4|e43ba79b-d0f6-4de9-a5f4-2e785e2df216|e43ba79b-d0f6-4de9-a5f4-2e785e2df216",
+          "Unconnected"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -76,7 +101,7 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_filters_mismatch": "error",
+        "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "error",
         "hole_clearance": "ignore",
