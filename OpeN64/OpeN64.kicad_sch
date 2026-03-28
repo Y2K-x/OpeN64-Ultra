@@ -4817,7 +4817,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4849,25 +4849,6 @@
 			)
 			(symbol "N64_SW2_Reset_1_1"
 				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(hide yes)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(hide yes)
@@ -4878,7 +4859,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -55437,9 +55418,6 @@
 		)
 		(pin "1"
 			(uuid "e2e6151c-8277-40ef-a420-512a9bd66609")
-		)
-		(pin "4"
-			(uuid "fc305ce0-461d-4825-937f-4118a3345ef1")
 		)
 		(pin "2"
 			(uuid "37b330be-9c3e-4850-92a1-0e32937616a9")

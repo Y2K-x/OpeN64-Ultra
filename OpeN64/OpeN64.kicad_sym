@@ -3485,7 +3485,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3517,25 +3517,6 @@
 		)
 		(symbol "N64_SW2_Reset_1_1"
 			(pin passive line
-				(at -5.08 0 0)
-				(length 2.54)
-				(hide yes)
-				(name "A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 5.08 0 180)
 				(length 2.54)
 				(hide yes)
@@ -3546,7 +3527,7 @@
 						)
 					)
 				)
-				(number "4"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
