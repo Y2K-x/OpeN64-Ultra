@@ -78,10 +78,6 @@
         [
           "text_height|104290000|106150000|8e272e86-48f8-41ab-94fd-701cc19b4444|00000000-0000-0000-0000-000000000000",
           "This technically violates JLC's specs but it remains legible in practice."
-        ],
-        [
-          "unconnected_items|203910000|134160000|F.Cu|4|e43ba79b-d0f6-4de9-a5f4-2e785e2df216|e43ba79b-d0f6-4de9-a5f4-2e785e2df216",
-          "Unconnected"
         ]
       ],
       "meta": {
