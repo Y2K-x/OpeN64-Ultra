@@ -949,20 +949,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "N64_P2_0_1"
+		(symbol "N64_P2_1_1"
 			(rectangle
 				(start -6.35 12.7)
 				(end 6.35 -12.7)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "N64_P2_1_1"
 			(pin input line
 				(at -8.89 10.16 0)
 				(length 2.54)
@@ -1121,20 +1119,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "N64_P3_0_1"
+		(symbol "N64_P3_1_1"
 			(rectangle
 				(start -6.35 12.7)
 				(end 6.35 -12.7)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "N64_P3_1_1"
 			(pin input line
 				(at -8.89 10.16 0)
 				(length 2.54)
@@ -1251,7 +1247,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "P4"
-			(at -4.064 11.43 0)
+			(at -4.064 12.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1293,20 +1289,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "N64_P4_Power_Port_0_1"
+		(symbol "N64_P4_Power_Port_1_1"
 			(rectangle
-				(start -5.08 10.16)
-				(end 5.08 -10.16)
+				(start -5.08 11.43)
+				(end 5.08 -11.43)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "N64_P4_Power_Port_1_1"
 			(pin input line
 				(at 7.62 8.89 180)
 				(length 2.54)
@@ -1423,7 +1417,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "P5"
-			(at -5.08 76.454 0)
+			(at -5.08 77.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1468,14 +1462,14 @@
 		)
 		(symbol "N64_P5_Cart_Slot_1_1"
 			(rectangle
-				(start -6.35 74.93)
-				(end 6.35 -74.93)
+				(start -6.35 76.2)
+				(end 6.35 -76.2)
 				(stroke
 					(width 0)
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin input line
@@ -2404,7 +2398,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "P7"
-			(at -5.334 20.574 0)
+			(at -5.334 21.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2446,20 +2440,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "N64_P7_Video_Port_0_1"
+		(symbol "N64_P7_Video_Port_1_1"
 			(rectangle
-				(start -6.35 19.05)
-				(end 6.35 -22.86)
+				(start -6.35 20.32)
+				(end 6.35 -24.13)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "N64_P7_Video_Port_1_1"
 			(pin input line
 				(at -8.89 17.78 0)
 				(length 2.54)
@@ -3543,7 +3535,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U1"
-			(at -7.112 9.144 0)
+			(at -7.62 9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3585,20 +3577,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "N64_U1_0_1"
+		(symbol "N64_U1_1_1"
 			(rectangle
-				(start -8.89 7.62)
-				(end 8.89 -2.54)
+				(start -8.89 8.89)
+				(end 8.89 -3.81)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "N64_U1_1_1"
 			(pin input line
 				(at -11.43 6.35 0)
 				(length 2.54)
@@ -3795,18 +3785,511 @@
 		)
 		(symbol "N64_U10_CPU_1_1"
 			(rectangle
-				(start -24.13 95.25)
-				(end 24.13 -93.98)
+				(start -24.13 96.52)
+				(end 24.13 -76.2)
 				(stroke
 					(width 0)
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin bidirectional line
 				(at -26.67 93.98 0)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -26.67 93.98 0)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "101"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -26.67 93.98 0)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "107"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -26.67 93.98 0)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "113"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -26.67 93.98 0)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "119"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -26.67 93.98 0)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -26.67 93.98 0)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -26.67 93.98 0)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -26.67 93.98 0)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -26.67 93.98 0)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -26.67 93.98 0)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -26.67 93.98 0)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -26.67 93.98 0)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "44"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -26.67 93.98 0)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "49"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -26.67 93.98 0)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -26.67 93.98 0)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "54"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -26.67 93.98 0)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "60"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -26.67 93.98 0)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "62"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -26.67 93.98 0)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "68"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -26.67 93.98 0)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "72"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -26.67 93.98 0)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "76"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -26.67 93.98 0)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "80"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -26.67 93.98 0)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "85"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -26.67 93.98 0)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "90"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -26.67 93.98 0)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "91"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -26.67 93.98 0)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "96"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -26.67 88.9 0)
 				(length 2.54)
 				(name "NMI"
 					(effects
@@ -3824,7 +4307,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -26.67 88.9 0)
+				(at -26.67 83.82 0)
 				(length 2.54)
 				(name "ColdReset"
 					(effects
@@ -3842,7 +4325,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -26.67 86.36 0)
+				(at -26.67 81.28 0)
 				(length 2.54)
 				(name "RESET"
 					(effects
@@ -3878,8 +4361,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -26.67 69.85 0)
+				(at -26.67 76.2 0)
 				(length 2.54)
+				(hide yes)
 				(name "VDDP"
 					(effects
 						(font
@@ -3896,7 +4380,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -26.67 67.31 0)
+				(at -26.67 71.12 0)
 				(length 2.54)
 				(name "PLLCAP1"
 					(effects
@@ -3914,7 +4398,26 @@
 				)
 			)
 			(pin bidirectional line
-				(at -26.67 60.96 0)
+				(at -26.67 66.04 0)
+				(length 2.54)
+				(hide yes)
+				(name "VSSP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -26.67 66.04 0)
 				(length 2.54)
 				(name "VSSP"
 					(effects
@@ -3932,25 +4435,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -26.67 54.61 0)
-				(length 2.54)
-				(name "VSSP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -26.67 52.07 0)
+				(at -26.67 60.96 0)
 				(length 2.54)
 				(name "PLLCAP0"
 					(effects
@@ -3968,16 +4453,17 @@
 				)
 			)
 			(pin bidirectional line
-				(at -26.67 44.45 0)
+				(at -26.67 -73.66 0)
 				(length 2.54)
-				(name "VDD"
+				(hide yes)
+				(name "VSS"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "102"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3986,16 +4472,17 @@
 				)
 			)
 			(pin bidirectional line
-				(at -26.67 41.91 0)
+				(at -26.67 -73.66 0)
 				(length 2.54)
-				(name "VDD"
+				(hide yes)
+				(name "VSS"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "108"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4004,16 +4491,17 @@
 				)
 			)
 			(pin bidirectional line
-				(at -26.67 39.37 0)
+				(at -26.67 -73.66 0)
 				(length 2.54)
-				(name "VDD"
+				(hide yes)
+				(name "VSS"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "15"
+				(number "114"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4022,16 +4510,17 @@
 				)
 			)
 			(pin bidirectional line
-				(at -26.67 36.83 0)
+				(at -26.67 -73.66 0)
 				(length 2.54)
-				(name "VDD"
+				(hide yes)
+				(name "VSS"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "19"
+				(number "120"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4040,16 +4529,17 @@
 				)
 			)
 			(pin bidirectional line
-				(at -26.67 34.29 0)
+				(at -26.67 -73.66 0)
 				(length 2.54)
-				(name "VDD"
+				(hide yes)
+				(name "VSS"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "23"
+				(number "17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4058,385 +4548,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -26.67 31.75 0)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "29"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -26.67 29.21 0)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "32"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -26.67 26.67 0)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "36"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -26.67 24.13 0)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "40"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -26.67 21.59 0)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "44"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -26.67 19.05 0)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "49"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -26.67 16.51 0)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "54"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -26.67 13.97 0)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "60"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -26.67 11.43 0)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "62"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -26.67 8.89 0)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "68"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -26.67 6.35 0)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "72"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -26.67 3.81 0)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "76"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -26.67 1.27 0)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "80"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -26.67 -1.27 0)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "85"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -26.67 -3.81 0)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "90"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -26.67 -6.35 0)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "91"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -26.67 -8.89 0)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "96"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -26.67 -11.43 0)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "101"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -26.67 -13.97 0)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "107"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -26.67 -16.51 0)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "113"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -26.67 -19.05 0)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "119"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -26.67 -26.67 0)
+				(at -26.67 -73.66 0)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -4454,62 +4566,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -26.67 -29.21 0)
+				(at -26.67 -73.66 0)
 				(length 2.54)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -26.67 -31.75 0)
-				(length 2.54)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -26.67 -34.29 0)
-				(length 2.54)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -26.67 -36.83 0)
-				(length 2.54)
+				(hide yes)
 				(name "VSS"
 					(effects
 						(font
@@ -4526,8 +4585,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -26.67 -39.37 0)
+				(at -26.67 -73.66 0)
 				(length 2.54)
+				(hide yes)
 				(name "VSS"
 					(effects
 						(font
@@ -4544,8 +4604,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -26.67 -41.91 0)
+				(at -26.67 -73.66 0)
 				(length 2.54)
+				(hide yes)
 				(name "VSS"
 					(effects
 						(font
@@ -4562,8 +4623,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -26.67 -44.45 0)
+				(at -26.67 -73.66 0)
 				(length 2.54)
+				(hide yes)
 				(name "VSS"
 					(effects
 						(font
@@ -4580,8 +4642,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -26.67 -46.99 0)
+				(at -26.67 -73.66 0)
 				(length 2.54)
+				(hide yes)
 				(name "VSS"
 					(effects
 						(font
@@ -4598,8 +4661,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -26.67 -49.53 0)
+				(at -26.67 -73.66 0)
 				(length 2.54)
+				(hide yes)
 				(name "VSS"
 					(effects
 						(font
@@ -4616,8 +4680,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -26.67 -52.07 0)
+				(at -26.67 -73.66 0)
 				(length 2.54)
+				(hide yes)
 				(name "VSS"
 					(effects
 						(font
@@ -4634,8 +4699,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -26.67 -54.61 0)
+				(at -26.67 -73.66 0)
 				(length 2.54)
+				(hide yes)
 				(name "VSS"
 					(effects
 						(font
@@ -4652,8 +4718,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -26.67 -57.15 0)
+				(at -26.67 -73.66 0)
 				(length 2.54)
+				(hide yes)
 				(name "VSS"
 					(effects
 						(font
@@ -4670,8 +4737,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -26.67 -59.69 0)
+				(at -26.67 -73.66 0)
 				(length 2.54)
+				(hide yes)
 				(name "VSS"
 					(effects
 						(font
@@ -4688,8 +4756,28 @@
 				)
 			)
 			(pin bidirectional line
-				(at -26.67 -62.23 0)
+				(at -26.67 -73.66 0)
 				(length 2.54)
+				(hide yes)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -26.67 -73.66 0)
+				(length 2.54)
+				(hide yes)
 				(name "VSS"
 					(effects
 						(font
@@ -4706,8 +4794,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -26.67 -64.77 0)
+				(at -26.67 -73.66 0)
 				(length 2.54)
+				(hide yes)
 				(name "VSS"
 					(effects
 						(font
@@ -4724,8 +4813,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -26.67 -67.31 0)
+				(at -26.67 -73.66 0)
 				(length 2.54)
+				(hide yes)
 				(name "VSS"
 					(effects
 						(font
@@ -4742,8 +4832,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -26.67 -69.85 0)
+				(at -26.67 -73.66 0)
 				(length 2.54)
+				(hide yes)
 				(name "VSS"
 					(effects
 						(font
@@ -4760,8 +4851,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -26.67 -72.39 0)
+				(at -26.67 -73.66 0)
 				(length 2.54)
+				(hide yes)
 				(name "VSS"
 					(effects
 						(font
@@ -4778,8 +4870,28 @@
 				)
 			)
 			(pin bidirectional line
-				(at -26.67 -74.93 0)
+				(at -26.67 -73.66 0)
 				(length 2.54)
+				(hide yes)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -26.67 -73.66 0)
+				(length 2.54)
+				(hide yes)
 				(name "VSS"
 					(effects
 						(font
@@ -4796,8 +4908,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -26.67 -77.47 0)
+				(at -26.67 -73.66 0)
 				(length 2.54)
+				(hide yes)
 				(name "VSS"
 					(effects
 						(font
@@ -4814,8 +4927,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -26.67 -80.01 0)
+				(at -26.67 -73.66 0)
 				(length 2.54)
+				(hide yes)
 				(name "VSS"
 					(effects
 						(font
@@ -4832,8 +4946,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -26.67 -82.55 0)
+				(at -26.67 -73.66 0)
 				(length 2.54)
+				(hide yes)
 				(name "VSS"
 					(effects
 						(font
@@ -4842,78 +4957,6 @@
 					)
 				)
 				(number "97"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -26.67 -85.09 0)
-				(length 2.54)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "102"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -26.67 -87.63 0)
-				(length 2.54)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "108"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -26.67 -90.17 0)
-				(length 2.54)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "114"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -26.67 -92.71 0)
-				(length 2.54)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "120"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6611,7 +6654,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U12"
-			(at -5.588 7.62 0)
+			(at -5.588 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6655,14 +6698,14 @@
 		)
 		(symbol "N64_U12_1_1"
 			(rectangle
-				(start -7.62 6.35)
-				(end 7.62 -5.08)
+				(start -7.62 7.62)
+				(end 7.62 -6.35)
 				(stroke
 					(width 0)
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin input line
@@ -6763,7 +6806,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U13"
-			(at -5.842 4.826 0)
+			(at -5.842 6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6805,20 +6848,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "N64_U13_0_1"
+		(symbol "N64_U13_1_1"
 			(rectangle
-				(start -7.62 3.81)
+				(start -7.62 5.08)
 				(end 7.62 -3.81)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "N64_U13_1_1"
 			(pin input line
 				(at -10.16 2.54 0)
 				(length 2.54)
@@ -7531,7 +7572,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U15"
-			(at -10.922 9.144 0)
+			(at -10.922 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7583,14 +7624,14 @@
 		)
 		(symbol "N64_U15_1_1"
 			(rectangle
-				(start -12.7 7.62)
+				(start -12.7 8.89)
 				(end 12.7 -7.62)
 				(stroke
 					(width 0)
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin input line
@@ -7787,20 +7828,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "N64_U2_0_1"
+		(symbol "N64_U2_1_1"
 			(rectangle
 				(start -8.89 19.05)
 				(end 8.89 -17.78)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "N64_U2_1_1"
 			(pin input line
 				(at -11.43 16.51 0)
 				(length 2.54)
@@ -8061,7 +8100,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U3"
-			(at -7.874 6.858 0)
+			(at -7.874 7.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8103,20 +8142,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "N64_U3_0_1"
+		(symbol "N64_U3_1_1"
 			(rectangle
-				(start -8.89 5.715)
-				(end 8.89 -5.08)
+				(start -8.89 6.35)
+				(end 8.89 -6.35)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "N64_U3_1_1"
 			(pin input line
 				(at -11.43 3.81 0)
 				(length 2.54)
@@ -8215,7 +8252,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U4"
-			(at -10.16 24.13 0)
+			(at -10.16 25.146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8259,14 +8296,14 @@
 		)
 		(symbol "N64_U4_1_1"
 			(rectangle
-				(start -11.43 22.86)
-				(end 11.43 -36.83)
+				(start -11.43 24.13)
+				(end 11.43 -38.1)
 				(stroke
 					(width 0)
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin input line
@@ -8709,7 +8746,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U5"
-			(at -7.112 25.908 0)
+			(at -7.112 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8751,20 +8788,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "N64_U5_0_1"
+		(symbol "N64_U5_1_1"
 			(rectangle
-				(start -8.89 24.13)
-				(end 8.89 -25.4)
+				(start -8.89 25.4)
+				(end 8.89 -26.67)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "N64_U5_1_1"
 			(pin input line
 				(at -11.43 22.86 0)
 				(length 2.54)
@@ -9025,7 +9060,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U6"
-			(at -12.954 30.226 0)
+			(at -12.954 31.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9077,14 +9112,14 @@
 		)
 		(symbol "N64_U6_PIF_1_1"
 			(rectangle
-				(start -13.97 29.21)
-				(end 13.97 -29.21)
+				(start -13.97 30.48)
+				(end 13.97 -30.48)
 				(stroke
 					(width 0)
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin input line
@@ -9599,7 +9634,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U7"
-			(at -10.922 8.89 0)
+			(at -10.922 9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9643,14 +9678,14 @@
 		)
 		(symbol "N64_U7_1_1"
 			(rectangle
-				(start -12.7 7.62)
-				(end 12.7 -7.62)
+				(start -12.7 8.89)
+				(end 12.7 -8.89)
 				(stroke
 					(width 0)
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin input line
@@ -9864,7 +9899,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin input line
@@ -10170,14 +10205,14 @@
 		)
 		(symbol "N64_U9_RCP_1_1"
 			(rectangle
-				(start -21.59 125.7299)
-				(end 24.13 -119.38)
+				(start -21.59 126.9999)
+				(end 24.13 -52.07)
 				(stroke
 					(width 0)
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin bidirectional line
@@ -10469,8 +10504,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 73.66 0)
+				(at -24.13 76.2 0)
 				(length 2.54)
+				(hide yes)
 				(name "VDD_RAC"
 					(effects
 						(font
@@ -10487,8 +10523,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 71.12 0)
+				(at -24.13 76.2 0)
 				(length 2.54)
+				(hide yes)
 				(name "VDD_RAC"
 					(effects
 						(font
@@ -10505,8 +10542,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 68.58 0)
+				(at -24.13 76.2 0)
 				(length 2.54)
+				(hide yes)
 				(name "VDD_RAC"
 					(effects
 						(font
@@ -10523,8 +10561,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 66.04 0)
+				(at -24.13 76.2 0)
 				(length 2.54)
+				(hide yes)
 				(name "VDD_RAC"
 					(effects
 						(font
@@ -10541,7 +10580,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 63.5 0)
+				(at -24.13 73.66 0)
 				(length 2.54)
 				(name "VDD_ANLG"
 					(effects
@@ -10559,7 +10598,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 58.42 0)
+				(at -24.13 68.58 0)
 				(length 2.54)
 				(name "GND_RAC"
 					(effects
@@ -10577,8 +10616,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 55.88 0)
+				(at -24.13 68.58 0)
 				(length 2.54)
+				(hide yes)
 				(name "GND_RAC"
 					(effects
 						(font
@@ -10595,8 +10635,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 53.34 0)
+				(at -24.13 68.58 0)
 				(length 2.54)
+				(hide yes)
 				(name "GND_RAC"
 					(effects
 						(font
@@ -10613,8 +10654,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 50.8 0)
+				(at -24.13 68.58 0)
 				(length 2.54)
+				(hide yes)
 				(name "GND_RAC"
 					(effects
 						(font
@@ -10631,8 +10673,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 48.26 0)
+				(at -24.13 68.58 0)
 				(length 2.54)
+				(hide yes)
 				(name "GND_RAC"
 					(effects
 						(font
@@ -10649,8 +10692,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 45.72 0)
+				(at -24.13 68.58 0)
 				(length 2.54)
+				(hide yes)
 				(name "GND_RAC"
 					(effects
 						(font
@@ -10667,8 +10711,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 43.18 0)
+				(at -24.13 68.58 0)
 				(length 2.54)
+				(hide yes)
 				(name "GND_RAC"
 					(effects
 						(font
@@ -10685,8 +10730,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 40.64 0)
+				(at -24.13 68.58 0)
 				(length 2.54)
+				(hide yes)
 				(name "GND_RAC"
 					(effects
 						(font
@@ -10703,8 +10749,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 38.1 0)
+				(at -24.13 68.58 0)
 				(length 2.54)
+				(hide yes)
 				(name "GND_RAC"
 					(effects
 						(font
@@ -10721,8 +10768,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 35.56 0)
+				(at -24.13 68.58 0)
 				(length 2.54)
+				(hide yes)
 				(name "GND_RAC"
 					(effects
 						(font
@@ -10739,8 +10787,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 33.02 0)
+				(at -24.13 68.58 0)
 				(length 2.54)
+				(hide yes)
 				(name "GND_RAC"
 					(effects
 						(font
@@ -10757,8 +10806,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 30.48 0)
+				(at -24.13 68.58 0)
 				(length 2.54)
+				(hide yes)
 				(name "GND_RAC"
 					(effects
 						(font
@@ -10775,7 +10825,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 24.13 0)
+				(at -24.13 63.5 0)
 				(length 2.54)
 				(name "SysAD31"
 					(effects
@@ -10793,7 +10843,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 21.59 0)
+				(at -24.13 60.96 0)
 				(length 2.54)
 				(name "SysAD30"
 					(effects
@@ -10811,7 +10861,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 19.05 0)
+				(at -24.13 58.42 0)
 				(length 2.54)
 				(name "SysAD29"
 					(effects
@@ -10829,7 +10879,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 16.51 0)
+				(at -24.13 55.88 0)
 				(length 2.54)
 				(name "SysAD28"
 					(effects
@@ -10847,7 +10897,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 13.97 0)
+				(at -24.13 53.34 0)
 				(length 2.54)
 				(name "SysAD27"
 					(effects
@@ -10865,7 +10915,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 11.43 0)
+				(at -24.13 50.8 0)
 				(length 2.54)
 				(name "SysAD26"
 					(effects
@@ -10883,7 +10933,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 8.89 0)
+				(at -24.13 48.26 0)
 				(length 2.54)
 				(name "SysAD25"
 					(effects
@@ -10901,7 +10951,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 6.35 0)
+				(at -24.13 45.72 0)
 				(length 2.54)
 				(name "SysAD24"
 					(effects
@@ -10919,7 +10969,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 3.81 0)
+				(at -24.13 43.18 0)
 				(length 2.54)
 				(name "SysAD23"
 					(effects
@@ -10937,7 +10987,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 1.27 0)
+				(at -24.13 40.64 0)
 				(length 2.54)
 				(name "SysAD22"
 					(effects
@@ -10955,7 +11005,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -1.27 0)
+				(at -24.13 38.1 0)
 				(length 2.54)
 				(name "SysAD21"
 					(effects
@@ -10973,7 +11023,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -3.81 0)
+				(at -24.13 35.56 0)
 				(length 2.54)
 				(name "SysAD20"
 					(effects
@@ -10991,7 +11041,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -6.35 0)
+				(at -24.13 33.02 0)
 				(length 2.54)
 				(name "SysAD19"
 					(effects
@@ -11009,7 +11059,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -8.89 0)
+				(at -24.13 30.48 0)
 				(length 2.54)
 				(name "SysAD18"
 					(effects
@@ -11027,7 +11077,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -11.43 0)
+				(at -24.13 27.94 0)
 				(length 2.54)
 				(name "SysAD17"
 					(effects
@@ -11045,7 +11095,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -13.97 0)
+				(at -24.13 25.4 0)
 				(length 2.54)
 				(name "SysAD16"
 					(effects
@@ -11063,7 +11113,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -16.51 0)
+				(at -24.13 22.86 0)
 				(length 2.54)
 				(name "SysAD15"
 					(effects
@@ -11081,7 +11131,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -19.05 0)
+				(at -24.13 20.32 0)
 				(length 2.54)
 				(name "SysAD14"
 					(effects
@@ -11099,7 +11149,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -21.59 0)
+				(at -24.13 17.78 0)
 				(length 2.54)
 				(name "SysAD13"
 					(effects
@@ -11117,7 +11167,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -24.13 0)
+				(at -24.13 15.24 0)
 				(length 2.54)
 				(name "SysAD12"
 					(effects
@@ -11135,7 +11185,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -26.67 0)
+				(at -24.13 12.7 0)
 				(length 2.54)
 				(name "SysAD11"
 					(effects
@@ -11153,7 +11203,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -29.21 0)
+				(at -24.13 10.16 0)
 				(length 2.54)
 				(name "SysAD10"
 					(effects
@@ -11171,7 +11221,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -31.75 0)
+				(at -24.13 7.62 0)
 				(length 2.54)
 				(name "SysAD9"
 					(effects
@@ -11189,7 +11239,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -34.29 0)
+				(at -24.13 5.08 0)
 				(length 2.54)
 				(name "SysAD8"
 					(effects
@@ -11207,7 +11257,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -36.83 0)
+				(at -24.13 2.54 0)
 				(length 2.54)
 				(name "SysAD7"
 					(effects
@@ -11225,7 +11275,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -39.37 0)
+				(at -24.13 0 0)
 				(length 2.54)
 				(name "SysAD6"
 					(effects
@@ -11243,7 +11293,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -41.91 0)
+				(at -24.13 -2.54 0)
 				(length 2.54)
 				(name "SysAD5"
 					(effects
@@ -11261,7 +11311,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -44.45 0)
+				(at -24.13 -5.08 0)
 				(length 2.54)
 				(name "SysAD4"
 					(effects
@@ -11279,7 +11329,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -46.99 0)
+				(at -24.13 -7.62 0)
 				(length 2.54)
 				(name "SysAD3"
 					(effects
@@ -11297,7 +11347,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -49.53 0)
+				(at -24.13 -10.16 0)
 				(length 2.54)
 				(name "SysAD2"
 					(effects
@@ -11315,7 +11365,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -52.07 0)
+				(at -24.13 -12.7 0)
 				(length 2.54)
 				(name "SysAD1"
 					(effects
@@ -11333,7 +11383,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -54.61 0)
+				(at -24.13 -15.24 0)
 				(length 2.54)
 				(name "SysAD0"
 					(effects
@@ -11351,7 +11401,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -59.69 0)
+				(at -24.13 -20.32 0)
 				(length 2.54)
 				(name "SysCmd4"
 					(effects
@@ -11369,7 +11419,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -62.23 0)
+				(at -24.13 -22.86 0)
 				(length 2.54)
 				(name "SysCmd3"
 					(effects
@@ -11387,7 +11437,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -64.77 0)
+				(at -24.13 -25.4 0)
 				(length 2.54)
 				(name "SysCmd2"
 					(effects
@@ -11405,7 +11455,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -67.31 0)
+				(at -24.13 -27.94 0)
 				(length 2.54)
 				(name "SysCmd1"
 					(effects
@@ -11423,7 +11473,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -69.85 0)
+				(at -24.13 -30.48 0)
 				(length 2.54)
 				(name "SysCmd0"
 					(effects
@@ -11441,7 +11491,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -74.93 0)
+				(at -24.13 -35.56 0)
 				(length 2.54)
 				(name "PVALID"
 					(effects
@@ -11459,7 +11509,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -77.47 0)
+				(at -24.13 -38.1 0)
 				(length 2.54)
 				(name "EVALID"
 					(effects
@@ -11477,7 +11527,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -82.55 0)
+				(at -24.13 -43.18 0)
 				(length 2.54)
 				(name "Master_Clock"
 					(effects
@@ -11495,7 +11545,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -86.36 0)
+				(at -24.13 -46.99 0)
 				(length 2.54)
 				(name "EOK"
 					(effects
@@ -11513,7 +11563,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -88.9 0)
+				(at -24.13 -49.53 0)
 				(length 2.54)
 				(name "INT"
 					(effects
@@ -11533,6 +11583,461 @@
 			(pin bidirectional line
 				(at 26.67 124.46 180)
 				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 124.46 180)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "101"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 124.46 180)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "106"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 124.46 180)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "110"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 124.46 180)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "114"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 124.46 180)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "120"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 124.46 180)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "126"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 124.46 180)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 124.46 180)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 124.46 180)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 124.46 180)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 124.46 180)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 124.46 180)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 124.46 180)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "43"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 124.46 180)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "49"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 124.46 180)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "56"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 124.46 180)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "64"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 124.46 180)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "71"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 124.46 180)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "77"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 124.46 180)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "83"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 124.46 180)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "88"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 124.46 180)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 124.46 180)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "90"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 124.46 180)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "98"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 119.38 180)
+				(length 2.54)
 				(name "RESET"
 					(effects
 						(font
@@ -11549,7 +12054,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 119.38 180)
+				(at 26.67 114.3 180)
 				(length 2.54)
 				(name "PCHCLK"
 					(effects
@@ -11567,7 +12072,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 116.84 180)
+				(at 26.67 111.76 180)
 				(length 2.54)
 				(name "PCHCMD"
 					(effects
@@ -11585,7 +12090,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 114.3 180)
+				(at 26.67 109.22 180)
 				(length 2.54)
 				(name "PCHRSP"
 					(effects
@@ -11603,7 +12108,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 109.22 180)
+				(at 26.67 104.14 180)
 				(length 2.54)
 				(name "CAD15"
 					(effects
@@ -11621,7 +12126,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 106.68 180)
+				(at 26.67 101.6 180)
 				(length 2.54)
 				(name "CAD14"
 					(effects
@@ -11639,7 +12144,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 104.14 180)
+				(at 26.67 99.06 180)
 				(length 2.54)
 				(name "CAD13"
 					(effects
@@ -11657,7 +12162,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 101.6 180)
+				(at 26.67 96.52 180)
 				(length 2.54)
 				(name "CAD12"
 					(effects
@@ -11675,7 +12180,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 99.06 180)
+				(at 26.67 93.98 180)
 				(length 2.54)
 				(name "CAD11"
 					(effects
@@ -11693,7 +12198,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 96.52 180)
+				(at 26.67 91.44 180)
 				(length 2.54)
 				(name "CAD10"
 					(effects
@@ -11711,7 +12216,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 93.98 180)
+				(at 26.67 88.9 180)
 				(length 2.54)
 				(name "CAD9"
 					(effects
@@ -11729,7 +12234,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 91.44 180)
+				(at 26.67 86.36 180)
 				(length 2.54)
 				(name "CAD8"
 					(effects
@@ -11747,7 +12252,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 88.9 180)
+				(at 26.67 83.82 180)
 				(length 2.54)
 				(name "CAD7"
 					(effects
@@ -11765,7 +12270,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 86.36 180)
+				(at 26.67 81.28 180)
 				(length 2.54)
 				(name "CAD6"
 					(effects
@@ -11783,7 +12288,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 83.82 180)
+				(at 26.67 78.74 180)
 				(length 2.54)
 				(name "CAD5"
 					(effects
@@ -11801,7 +12306,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 81.28 180)
+				(at 26.67 76.2 180)
 				(length 2.54)
 				(name "CAD4"
 					(effects
@@ -11819,7 +12324,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 78.74 180)
+				(at 26.67 73.66 180)
 				(length 2.54)
 				(name "CAD3"
 					(effects
@@ -11837,7 +12342,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 76.2 180)
+				(at 26.67 71.12 180)
 				(length 2.54)
 				(name "CAD2"
 					(effects
@@ -11855,7 +12360,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 73.66 180)
+				(at 26.67 68.58 180)
 				(length 2.54)
 				(name "CAD1"
 					(effects
@@ -11873,7 +12378,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 71.12 180)
+				(at 26.67 66.04 180)
 				(length 2.54)
 				(name "CAD0"
 					(effects
@@ -11891,7 +12396,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 66.04 180)
+				(at 26.67 60.96 180)
 				(length 2.54)
 				(name "CALEL"
 					(effects
@@ -11909,7 +12414,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 63.5 180)
+				(at 26.67 58.42 180)
 				(length 2.54)
 				(name "CALEH"
 					(effects
@@ -11927,7 +12432,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 58.42 180)
+				(at 26.67 53.34 180)
 				(length 2.54)
 				(name "CRD"
 					(effects
@@ -11945,7 +12450,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 55.88 180)
+				(at 26.67 50.8 180)
 				(length 2.54)
 				(name "CWR"
 					(effects
@@ -11963,7 +12468,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 49.53 180)
+				(at 26.67 45.72 180)
 				(length 2.54)
 				(name "AUDCLK"
 					(effects
@@ -11981,7 +12486,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 46.99 180)
+				(at 26.67 43.18 180)
 				(length 2.54)
 				(name "AUDLRCLK"
 					(effects
@@ -11999,7 +12504,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 44.45 180)
+				(at 26.67 40.64 180)
 				(length 2.54)
 				(name "AUDDAT"
 					(effects
@@ -12017,7 +12522,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 38.1 180)
+				(at 26.67 35.56 180)
 				(length 2.54)
 				(name "SRGB6"
 					(effects
@@ -12035,7 +12540,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 35.56 180)
+				(at 26.67 33.02 180)
 				(length 2.54)
 				(name "SRGB5"
 					(effects
@@ -12053,7 +12558,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 33.02 180)
+				(at 26.67 30.48 180)
 				(length 2.54)
 				(name "SRGB4"
 					(effects
@@ -12071,7 +12576,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 30.48 180)
+				(at 26.67 27.94 180)
 				(length 2.54)
 				(name "SRGB3"
 					(effects
@@ -12089,7 +12594,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 27.94 180)
+				(at 26.67 25.4 180)
 				(length 2.54)
 				(name "SRGB2"
 					(effects
@@ -12107,7 +12612,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 25.4 180)
+				(at 26.67 22.86 180)
 				(length 2.54)
 				(name "SRGB1"
 					(effects
@@ -12125,7 +12630,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 22.86 180)
+				(at 26.67 20.32 180)
 				(length 2.54)
 				(name "SRGB0"
 					(effects
@@ -12143,7 +12648,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 19.05 180)
+				(at 26.67 16.51 180)
 				(length 2.54)
 				(name "VSYNC"
 					(effects
@@ -12161,7 +12666,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 16.51 180)
+				(at 26.67 13.97 180)
 				(length 2.54)
 				(name "VCLK"
 					(effects
@@ -12179,394 +12684,17 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 6.35 180)
+				(at 26.67 -49.53 180)
 				(length 2.54)
-				(name "VDD"
+				(hide yes)
+				(name "VSS"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 26.67 3.81 180)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 26.67 1.27 180)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 26.67 -1.27 180)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 26.67 -3.81 180)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "22"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 26.67 -6.35 180)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "27"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 26.67 -8.89 180)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "29"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 26.67 -11.43 180)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "37"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 26.67 -13.97 180)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "43"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 26.67 -16.51 180)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "49"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 26.67 -19.05 180)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "56"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 26.67 -21.59 180)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "64"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 26.67 -24.13 180)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "71"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 26.67 -26.67 180)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "77"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 26.67 -29.21 180)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "83"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 26.67 -31.75 180)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "88"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 26.67 -34.29 180)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "90"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 26.67 -36.83 180)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "98"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 26.67 -39.37 180)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "101"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 26.67 -41.91 180)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "106"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 26.67 -44.45 180)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "110"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 26.67 -46.99 180)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "114"
+				(number "100"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12577,14 +12705,15 @@
 			(pin bidirectional line
 				(at 26.67 -49.53 180)
 				(length 2.54)
-				(name "VDD"
+				(hide yes)
+				(name "VSS"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "120"
+				(number "105"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12593,16 +12722,17 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 -52.07 180)
+				(at 26.67 -49.53 180)
 				(length 2.54)
-				(name "VDD"
+				(hide yes)
+				(name "VSS"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "126"
+				(number "109"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12611,7 +12741,121 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 -57.15 180)
+				(at 26.67 -49.53 180)
+				(length 2.54)
+				(hide yes)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "113"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 -49.53 180)
+				(length 2.54)
+				(hide yes)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "119"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 -49.53 180)
+				(length 2.54)
+				(hide yes)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 -49.53 180)
+				(length 2.54)
+				(hide yes)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "125"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 -49.53 180)
+				(length 2.54)
+				(hide yes)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 -49.53 180)
+				(length 2.54)
+				(hide yes)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "160"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 -49.53 180)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -12629,62 +12873,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 -59.69 180)
+				(at 26.67 -49.53 180)
 				(length 2.54)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 26.67 -62.23 180)
-				(length 2.54)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 26.67 -64.77 180)
-				(length 2.54)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 26.67 -67.31 180)
-				(length 2.54)
+				(hide yes)
 				(name "VSS"
 					(effects
 						(font
@@ -12701,8 +12892,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 -69.85 180)
+				(at 26.67 -49.53 180)
 				(length 2.54)
+				(hide yes)
 				(name "VSS"
 					(effects
 						(font
@@ -12719,8 +12911,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 -72.39 180)
+				(at 26.67 -49.53 180)
 				(length 2.54)
+				(hide yes)
 				(name "VSS"
 					(effects
 						(font
@@ -12737,8 +12930,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 -74.93 180)
+				(at 26.67 -49.53 180)
 				(length 2.54)
+				(hide yes)
 				(name "VSS"
 					(effects
 						(font
@@ -12755,8 +12949,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 -77.47 180)
+				(at 26.67 -49.53 180)
 				(length 2.54)
+				(hide yes)
 				(name "VSS"
 					(effects
 						(font
@@ -12773,8 +12968,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 -80.01 180)
+				(at 26.67 -49.53 180)
 				(length 2.54)
+				(hide yes)
 				(name "VSS"
 					(effects
 						(font
@@ -12791,8 +12987,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 -82.55 180)
+				(at 26.67 -49.53 180)
 				(length 2.54)
+				(hide yes)
 				(name "VSS"
 					(effects
 						(font
@@ -12809,8 +13006,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 -85.09 180)
+				(at 26.67 -49.53 180)
 				(length 2.54)
+				(hide yes)
 				(name "VSS"
 					(effects
 						(font
@@ -12827,8 +13025,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 -87.63 180)
+				(at 26.67 -49.53 180)
 				(length 2.54)
+				(hide yes)
 				(name "VSS"
 					(effects
 						(font
@@ -12845,8 +13044,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 -90.17 180)
+				(at 26.67 -49.53 180)
 				(length 2.54)
+				(hide yes)
 				(name "VSS"
 					(effects
 						(font
@@ -12863,8 +13063,28 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 -92.71 180)
+				(at 26.67 -49.53 180)
 				(length 2.54)
+				(hide yes)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 -49.53 180)
+				(length 2.54)
+				(hide yes)
 				(name "VSS"
 					(effects
 						(font
@@ -12881,8 +13101,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 -95.25 180)
+				(at 26.67 -49.53 180)
 				(length 2.54)
+				(hide yes)
 				(name "VSS"
 					(effects
 						(font
@@ -12899,8 +13120,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 -97.79 180)
+				(at 26.67 -49.53 180)
 				(length 2.54)
+				(hide yes)
 				(name "VSS"
 					(effects
 						(font
@@ -12917,8 +13139,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 -100.33 180)
+				(at 26.67 -49.53 180)
 				(length 2.54)
+				(hide yes)
 				(name "VSS"
 					(effects
 						(font
@@ -12927,132 +13150,6 @@
 					)
 				)
 				(number "97"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 26.67 -102.87 180)
-				(length 2.54)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "100"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 26.67 -105.41 180)
-				(length 2.54)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "105"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 26.67 -107.95 180)
-				(length 2.54)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "109"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 26.67 -110.49 180)
-				(length 2.54)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "113"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 26.67 -113.03 180)
-				(length 2.54)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "119"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 26.67 -115.57 180)
-				(length 2.54)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "125"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 26.67 -118.11 180)
-				(length 2.54)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "160"
 					(effects
 						(font
 							(size 1.27 1.27)
